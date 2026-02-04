@@ -5,13 +5,13 @@ This repository contains a **Python client application** that fetches data for *
 
 The focus of this project is **correctness**, **reliability**, and **clean implementation** without relying on external rate-limiting libraries.
 
----
+
 
 ## Tech Stack
 - Python 3.11+
 - `requests` library (HTTP client)
 
----
+
 
 ## Requirements
 - Python 3.11 or higher
@@ -19,7 +19,7 @@ The focus of this project is **correctness**, **reliability**, and **clean imple
 
 > **Note:** The mock server is provided as part of the assignment and is used only for local testing. It is **not included** in this repository as per the instructions.
 
----
+
 
 ## Setup & Execution
 
@@ -45,7 +45,7 @@ From this repository:
 python client.py
 ```
 
----
+
 
 ## Implementation Details
 
@@ -97,21 +97,21 @@ MD5("/device/real/query" + TOKEN + TIMESTAMP)
 - Confirms successful completion after all batches are processed
 - Reports total successful responses
 
----
+
 
 ## Assumptions
 - The mock server follows the API contract described in the assignment
 - Server enforces strict rate limits and batch size constraints
 - Localhost access is available during execution
 
----
+
 
 ## Notes
 - This repository contains **only the client-side solution**
 - The mock server code is **intentionally excluded**
 - No external rate-limiting libraries are used, as required
 
----
+
 
 ## Conclusion
 This project demonstrates:
@@ -119,3 +119,4 @@ This project demonstrates:
 - ✅ Custom authentication handling
 - ✅ Controlled request batching and rate limiting
 - ✅ Clean and readable Python implementation
+
